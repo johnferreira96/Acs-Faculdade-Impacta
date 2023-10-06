@@ -1,0 +1,13 @@
+nota1 = float(input())
+nota2 = float(input())
+
+media = (nota1 + nota2) / 2
+
+if media >= 6:
+    print('aprovado')
+elif media <=6:
+    novamedia = (nota1 + 10) / 2
+    if novamedia >= 6:
+        print('talvez com a sub')
+    elif novamedia <= 6:
+        print('reprovado')
