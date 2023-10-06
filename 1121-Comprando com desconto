@@ -1,0 +1,11 @@
+valor = float(input())
+quantidade = int(input())
+
+valortotalcompra = valor * quantidade
+desconto_unitario = quantidade * 0.01
+desconto_fixo = 0.10
+total_desconto = valortotalcompra * ( desconto_unitario + desconto_fixo)
+valor_total_com_desconto = valortotalcompra - total_desconto
+
+print (f'{valortotalcompra:.2f}')
+print (f'{valor_total_com_desconto:.2f}')
