@@ -1,0 +1,7 @@
+lista = ['domingo','segunda','terca','quarta','quinta','sexta','sabado']
+dia = input()
+prazo = int(input())
+if prazo:
+    print(f'sera entregue {lista[(lista.index(dia) + prazo) %7 ]}')
+else:
+    print ('chega hoje!')
