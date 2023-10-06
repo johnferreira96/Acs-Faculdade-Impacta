@@ -1,0 +1,5 @@
+a = float(input())
+
+centimetros = a * 2.54
+
+print(f'{centimetros:.3f}')
