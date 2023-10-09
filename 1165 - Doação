@@ -1,0 +1,14 @@
+vic = 2.5
+doacao = 0
+soma_doacao = 0
+soma_vic = 0
+
+while doacao != -1:
+    doacao = float(input())
+
+    if doacao != -1:
+        soma_doacao += doacao
+        soma_vic = soma_doacao*vic
+
+print(f'VC$ {soma_doacao:.2f}')
+print(f'R$ {soma_vic:.2f}')
